@@ -60,11 +60,14 @@ body {
 
 @media (max-width:700px){
     .header{
-        flex-direction: column;
+        height: auto;
+        
         
     }
     .menu a {
         padding: 10px 10px;
+        display: block;
+
     }
 }
 
@@ -296,9 +299,10 @@ max-height: 200px;
     padding: 20px;
 } 
 
-@media (max-width:480px) {
+@media (max-width:480px) and (max-width:576){
     form{
         width: 100%;
+        height: auto;
     }
 }
 
